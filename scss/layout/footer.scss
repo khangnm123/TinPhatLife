@@ -1,0 +1,73 @@
+footer{
+    border-top: 1px solid #D9D9D9;
+    .container{
+        .center_flex{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            padding: 30px 0px 10px 0px;
+            font-family: 'Google San';
+            &-grid{
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+                .box_left{
+                    .image {
+                            img {
+                                height: 57px;
+                            }
+                        }
+                }
+                .box_right{
+                    display: grid;
+                    grid-template-columns: 70% 30%;
+                    justify-content: space-around;
+                    .text {
+                        margin: 0px 20px;
+                            h4 {
+                                color: #022541;
+                                font-size: 16px;
+                                font-family: "Google Sans";
+                                font-weight: 400;
+                                line-height: 28px;
+                            }
+                            .logo_icon{
+                                &-flex{
+                                    display: flex;
+                                    align-items: center;
+                                    img{
+                                        margin: 0px 5px;
+                                        height: 26px;
+                                    }
+                                    span{
+                                        display: flex;
+                                        gap: 5px;
+                                        align-items:center;
+                                        a{
+                                            color:$color-green;
+                                            font-weight: bold;
+                                            font-size: 18px;
+                                        }
+                                        p{
+                                            color: $color-green;
+                                        }
+                                    }
+                                    p{
+                                        margin: 0px;
+                                    }
+                                }
+                            }
+                        }
+                        .support {
+                            h4{
+                                font-weight: bold;
+                            }
+                            a {
+                                color: $color-blue;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}

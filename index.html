@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Tín Phát Vip Pro</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" type="image/x-icon" href="images/favicon.png">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+   <header>
+         <div class="logo">
+            <a href="./index.html"><img src="./images/image_header/Component 16.png" alt=""></a>
+         </div>
+      <nav>
+         <div class="box_right">
+            <ul class="text_shadow"  id="menu1">
+               <li><a href="#"><img src="./images/image_header/home.svg" alt=""></a></li>
+               <li><a href="#">Dịch Vụ</a><i><img src="./images/image_header/keyboard_arrow_down.png" alt=""></i>
+               </li>
+               <li><a href="./Blogs.html">Blogs</a></li>
+               <li><a href="./BlogDetails.html">Giới Thiệu</a></li>
+               <li><a href="./thuvien.html">Thư Viện</a></li>
+               <li><a href="./lienhe.html">Liên hệ</a></li>
+               <li>
+                     <div class="btn" onclick="Add()" id="one">
+                        <a href="#" class="flex_content"><i><img src="./images/image_header/edit_calendar.svg" alt=""></i> Đăng ký lịch
+                           hẹn</a>
+                     </div>
+               </li>
+            </ul>
+            <div class="menu" onclick="AddDropp()">
+               <i><ion-icon name="menu-outline"></ion-icon></i>
+            </div>
+            <div class="btn" onclick="Add()">
+                  <a href="#" class="flex_content" ><i><img src="./images/image_header/edit_calendar.svg"
+                  alt=""></i> Đăng ký lịch hẹn</a>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!----H1 content--------->
+   <section class="solution" style="padding: unset;">
+      <div class="solution_list">
+         <div class="flex_context">
+            <div class="box_content">
+               <div class="flex_item">
+                   <img src="./images/image_header/group2.png" alt="">
+                  <div class="list_boxt">
+                     <div class="list_boxt-text">
+                           <p id="no">Tín Phát cung cấp dịch vụ một cách an toàn và chuyên nghiệp cho doanh nghiệp <br /> vừa và nhỏ để khách
+                              hàng an tâm kinh doanh.</p>
+                           <div class="input" id="no">
+                              <div class="select">
+                                 <select>
+                                    <option selected>Bạn đang tìm kiếm dịch vụ gì ?</option>
+                                    <option value="1">
+                                       <p>Dịch vụ thành lập</p>
+                                    </option>
+                                    <option value="2">Thay đổi GPKD</option>
+                                    <option value="3">Dịch vụ kế toán</option>
+                                    <option value="4">Dịch vụ khác</option>
+                                 </select>
+                              </div>
+                              <div class="btn">
+                                 <a href="#">Bắt đầu ngay</a>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+              
+               <div class="box_text">
+                  <div class="box_text-list">
+                     <div class="list_boxt">
+                           <h1>Giải pháp <span class="bg_text">thủ tục pháp lý,<br />thuế, kế toán & tài chính</span><br /> cho doanh
+                              nghiệp.</h1>
+                           <p id="on">Tín Phát cung cấp dịch vụ một cách an toàn và chuyên nghiệp cho doanh nghiệp <br /> vừa và nhỏ để khách
+                              hàng an tâm kinh doanh.</p>
+                           <div class="input" id="on">
+                              <div class="select">
+                                 <select>
+                                    <option selected>Bạn đang tìm kiếm dịch vụ gì ?</option>
+                                    <option value="1">
+                                       <p>Dịch vụ thành lập</p>
+                                    </option>
+                                    <option value="2">Thay đổi GPKD</option>
+                                    <option value="3">Dịch vụ kế toán</option>
+                                    <option value="4">Dịch vụ khác</option>
+                                 </select>
+                              </div>
+                              <div class="btn">
+                                 <a href="#">Bắt đầu ngay</a>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+   <!-----Dang Ky------->
+   <section class="signup" id="menu">
+      <div class="singup_list">
+         <div class="container">
+            <div class="item">
+               <div class="text">
+                  <h2>Liên hệ tư vấn</h2>
+                  <i onClick="Close()"><img src="./images/image_header/close.png" alt="" style="height: 17px;"></i>
+               </div>
+               <form action="./js/form.js" method="post" id="submid_form"> 
+                  <div class="msg"></div>
+                  <div class="form-row">
+                     <div class="col">
+                        <label for="exampleInputPassword1">Họ Tên</label>
+                        <input type="text" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" name="fullname">
+                        <span class="required" style="color: red;"></span>
+                     </div>
+                     <div class="col one">
+                        <label for="exampleInputPassword1">Điện thoại</label>
+                        <input type="text" class="form-control" placeholder="0975-xxx-xxx" name="Sdtoj">
+                        <span class="required" style="color: red;"></span>
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleInputPassword1">Tên trường</label>
+                     <input type="text" class="form-control" id="exampleInputPassword1"
+                        placeholder="Ví dụ: Tên Trường A" name="truongoj">
+                        <span class="required" style="color: red;"></span>
+                  </div>
+                  <div class="textarea">
+                     <label for="textarea">Lời nhắn</label>
+                     <textarea class="textt" name="" id="" cols="30" rows="10" style="width: 100%; height: 132px;padding: 5px 10px; border:1px solid #D9D9D9 ; border-radius: 5px;"
+                        placeholder="Nhập Thông tin..." name="loinhan"></textarea>
+                  </div>
+                  <div class="image">
+                     <img src="./images/image_header/image 16.png" alt="">
+                  </div>
+                  <div class="flex_center">
+                     <div class="text_center">
+                        <button type="submit" style="border: none; outline: none; background: none; color: #FFFFFF;">Gửi thông tin</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!------Tabs------->
+   <section class="tab">
+      <div class="tab_list">
+         <div class="container">
+            <div class="flex_item">
+                  <div class="wrapper">
+                     <div class="tabs">
+                        <h3 class="active">Dịch vụ thành lập</h3>
+                        <h3>Thay đổi GPKD</h3>
+                        <h3>Dịch vụ kế toán</h3>
+                        <h3>Dịch vụ khác</h3>
+                     </div>
+                  </div>
+                  <div class="wrapper_two">
+                     <div class="tabs_two">
+                        <h3 class="active">Dịch vụ thành lập</h3>
+                        <h3>Thay đổi GPKD</h3>
+                        <h3>Dịch vụ kế toán</h3>
+                        <h3>Dịch vụ khác</h3>
+                     </div>
+                  </div>
+                  <div class="tab_content">
+                              <div class="tab_content-list">
+                                 <img src="./images/image_header/Rectangle 1527.png" alt="" width="100%">
+                                 <div class="btn_text ">
+                                    <div class="flex_grid active">
+                                       <div class="tab_context">
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty FDI <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Chi nhánh Công ty <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Hộ kinh doanh cá thể <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                           <a href="./BlogCate.html">Công ty TNHH <i><img src="./images/image_header/call_made.svg" alt=""></i></a>                                    
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty Cổ Phần <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty Vốn nước ngoài <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+
+                                       </div>
+                                    </div>
+                                    <div class="flex_grid">
+                                       <div class="tab_context">
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty TNHH <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty Cổ Phần <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty Vốn nước ngoài <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty FDI <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">         
+                                             <a href="./BlogCate.html">Chi nhánh Công ty <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Hộ kinh doanh cá thể <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="flex_grid">
+                                 <div class="tab_context">
+                                    <div class="item">
+                                       <a href="./BlogCate.html">Công ty FDI <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                    </div>
+                                    <div class="item">
+                                       <a href="./BlogCate.html">Chi nhánh Công ty <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                    </div>
+                                    <div class="item">
+                                       <a href="./BlogCate.html">Hộ kinh doanh cá thể <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                    </div>
+                                    <div class="item">
+                                       <a href="./BlogCate.html">Công ty TNHH <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                    </div>
+                                    <div class="item">
+                                       <a href="./BlogCate.html">Công ty Cổ Phần <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                    </div>
+                                    <div class="item">
+                                       <a href="./BlogCate.html">Công ty Vốn nước ngoài <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                    </div>
+                                
+                                 </div>
+                                    </div>
+                                    <div class="flex_grid">
+                                       <div class="tab_context">
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty TNHH <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty Cổ Phần <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty Vốn nước ngoài <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Công ty FDI <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Chi nhánh Công ty <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                          <div class="item">
+                                             <a href="./BlogCate.html">Hộ kinh doanh cá thể <i><img src="./images/image_header/call_made.svg" alt=""></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           
+                              </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!------Towards-------->
+   <section class="towards">
+      <div class="towards_list">
+         <div class="container">
+            <div class="text_center">
+               <h2>
+                  Chúng tôi hướng đến số 1#<br />Dịch Vụ Pháp Lý & Kế Toán Cho Doanh nghiệp Vừa & Nhỏ
+               </h2>
+            </div>
+            <div class="row">
+               <div class="col-md-6 box_left">
+                  <div class="box_left-flex">
+                     <div class="box_one">
+                        <h3>T</h3>
+                        <h4 id="no">Uy Tín</h4>
+                     </div>
+                     <div class="box_two">
+                        <h3 id="on">Uy Tín</h3>
+                        <p>
+                           Là mục tiêu quan trọng nhất trong kinh doanh và người làm dịch vụ. Chính vì vậy
+                           chúng tôi luôn đặt chữ Tín lên hàng đầu
+                           trong công việc của mình.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 box_right">
+                  <div class="box_right-flex">
+                     <div class="box_one">
+                        <h3>P</h3>
+                        <h4 id="no">Phát  Triển</h4>
+                     </div>
+                     <div class="box_two">
+                        <h3 id="on">Phát Triển</h3>
+                        <p>
+                           Làm cho hoạt động kinh doanh của doanh nghiệp một cách trơn tru, ổn định, tiết kiệm
+                           chi phí là mục tiêu của chúng tôi.
+                           Sự Phát Triển của khách hàng cũng là sự phát triển của chúng tôi.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!----Towards------>
+   <section class="toward_user">
+      <div class="container">
+         <div class="user_toward">
+            <div class="flex_content">
+               <div class="box_one">
+                  <h2><span data-goal="1500"></span>+</h2>
+                  <p>Khách Hàng</p>
+               </div>
+               <div class="box_one">
+                  <h2><span data-goal="99"></span>%</h2>
+                  <p>Khách hàng hài lòng</p>
+               </div>
+               <div class="box_one">
+                  <h2><span data-goal="6"></span></h2>
+                  <p>Năm kinh nghiệm <br /> & phát triển</p>
+               </div>
+               <div class="box_one">
+                  <h2><span data-goal="15"></span>%</h2>
+                  <p>Là chỉ số tối ưu chi phí</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!----Doanh Nghiệp-------->
+   <section class="business">
+      <div class="business_list">
+         <div class="container">
+            <div class="content_flex">
+               <div class="content_flex-grid">
+                  <img src="./images/image_header/image 6.png" alt="">
+                  <img src="./images/image_header/image 5.png" alt="">
+                  <img src="./images/image_header/image 7.png" alt="">
+                  <img src="./images/image_header/image 8.png" alt="">
+                  <img src="./images/image_header/image 9.png" alt="">
+                  <img src="./images/image_header/image 10.png" alt="">
+                  <img src="./images/image_header/image 11.png" alt="">
+                  <img src="./images/image_header/image 12.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="business_list-one">
+         <div class="container">
+            <div class="logo-slider">
+               <div class="logos-slide">
+                  <img src="./images/image_header/image 6.png" alt="">
+                  <img src="./images/image_header/image 5.png" alt="">
+                  <img src="./images/image_header/image 7.png" alt="">
+                  <img src="./images/image_header/image 8.png" alt="">
+                  <img src="./images/image_header/image 9.png" alt="">
+                  <img src="./images/image_header/image 10.png" alt="">
+                  <img src="./images/image_header/image 11.png" alt="">
+                  <img src="./images/image_header/image 12.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!------Khởi nghiệp--------->
+   <section class="start">
+      <div class="start_list">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 box_left">
+                  <h2>
+                     Dành cho <span class="bg_text">người khởi nghiệp</span>
+                  </h2>
+                  <p>
+                     Bạn sẽ nhận được dịch vụ quản lý IT chuyên nghiệp từ công ty thành viên với Tín Phát.
+                  </p>
+                  <div class="flex_item">
+                                       <ul>
+                                          <li><i><img src="./images/image_header/check_circle.png" alt=""></i>
+                                             <p>1 tên miền .COM miễn phí 1 năm sử dụng</p>
+                                          </li>
+                                          <li><i><img src="./images/image_header/check_circle.png" alt=""></i>
+                                             <p>1 năm sử dụng Website Hosting miễn phí không giới hạn băng thông</p>
+                                          </li>
+                                          <li><i><img src="./images/image_header/check_circle.png" alt=""></i>
+                                             <p>1 năm sử dụng Source Website miễn phí theo các mẫu giao diện sẵn có.</p>
+                                          </li>
+                                          <li><i><img src="./images/image_header/check_circle.png" alt=""></i>
+                                             <p>1 năm quản trị và hỗ trợ dịch vụ IT cho website miễn phí.</p>
+                                          </li>
+                                       </ul>
+                  </div>
+                  <div class="text_center">
+                     <span class="bg_text">Chỉ còn</span>
+                  </div>
+                  <div class="count_down">
+                     <div class="flex_center">
+                        <div class="time-list">
+                           <div class="item">
+                              <div id="day"></div>
+                              <i>
+                                 <img src="./images/image_header/_.png" alt="">
+                              </i>
+
+                           </div>
+                           <div class="text">
+                              <p>Ngày</p>
+                           </div>
+                        </div>
+                        <div class="time-list">
+                           <div class="item">
+                              <div id="hour"></div>
+                              <i><img src="./images/image_header/_.png" alt=""></i>
+                           </div>
+                           <div class="text">
+                              <p>Giờ</p>
+                           </div>
+                        </div>
+                        <div class="time-list">
+                           <div class="item">
+                              <div id="minute"></div>
+                              <i><img src="./images/image_header/_.png" alt=""></i>
+                           </div>
+                           <div class="text center">
+                              <p>Phút</p>
+                           </div>
+                        </div>
+                        <div class="time-list">
+                           <div class="item">
+                              <div id="seconds"></div>
+                           </div>
+                           <div class="text center">
+                              <p>Giây</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="text_center">
+                        <p>Ưu đãi chỉ có trong tháng này</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5 box_right">
+                  <div class="flex_content">
+                     <div class="flex_content-list">
+                        <img src="./images/image_header/“.png" alt="">
+                        <p>Bạn chỉ cần tập trung công việc kinh doanh, còn lại chúng tôi sẽ giúp bạn thiết lập
+                        </p>
+                        <div class="btn">
+                           <a href="#">Liên hệ ngay để nhận ưu đãi</a>
+                        </div>
+                           <div class="absolute_image">
+                              <img src="./images/image_header/Frame.png" alt="">
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-----Khách Hàng đánh giá------>
+   <section class="user">
+      <div class="user_list">
+         <div class="container">
+            <div class="text_center">
+               <h2>
+                  Khách hàng đánh giá về <br /> <span class="bg_text">Giải pháp & Dịch vụ của Tín Phát</span>
+               </h2>
+            </div>
+            <div class="center_flex">
+               <div class="owl-carousel owl-theme">
+                  <div class="item">
+                     <div class="carousel">
+                        <div class="img_left">
+                           <img src="./images/image_header/60d5e524ddd7cc6dd8baa146_icon__quote 1.png" alt="">
+                           <div class="img_left-text">
+                              <p>“Giờ đây, đội ngũ nhân viên của chúng tôi có khả năng tự đánh giá bản thân và
+                                 xem xét mức độ hoàn thành công
+                                 việc của
+                                 họ, điều đó mang đến cho họ một động lực để làm việc. Lúc này, chúng tôi có
+                                 các số liệu thống kê và có thể
+                                 nhận biết các
+                                 điểm số ghi nhận hiệu quả làm việc của nhân viên, điều đó cổ vũ đội ngũ nhân
+                                 viên của chúng tôi không ngừng
+                                 cải thiện
+                                 công tác cung cấp dịch vụ khách hàng.</p>
+                              <div class="avatar">
+                                 <img src="./images/image_header/Ellipse 23.png" alt="">
+                                 <div class="text_test">
+                                    <h3>Brent Burrows Jnr</h3>
+                                    <p>Ecommerce Manager & Brand Strategist, CBS Bahamas</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="carousel">
+                        <div class="img_left">
+                           <img src="./images/image_header/60d5e524ddd7cc6dd8baa146_icon__quote 1.png" alt="">
+                           <div class="img_left-text">
+                              <p>“Giờ đây, đội ngũ nhân viên của chúng tôi có khả năng tự đánh giá bản thân và
+                                 xem xét mức độ hoàn thành
+                                 công
+                                 việc của
+                                 họ, điều đó mang đến cho họ một động lực để làm việc. Lúc này, chúng tôi có
+                                 các số liệu thống kê và có
+                                 thể
+                                 nhận biết các
+                                 điểm số ghi nhận hiệu quả làm việc của nhân viên, điều đó cổ vũ đội ngũ nhân
+                                 viên của chúng tôi không
+                                 ngừng
+                                 cải thiện
+                                 công tác cung cấp dịch vụ khách hàng.</p>
+                              <div class="avatar">
+                                 <img src="./images/image_header/Ellipse 23.png" alt="">
+                                 <div class="text_test">
+                                    <h3>Brent Burrows Jnr</h3>
+                                    <p>Ecommerce Manager & Brand Strategist, CBS Bahamas</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="carousel">
+                        <div class="img_left">
+                           <img src="./images/image_header/60d5e524ddd7cc6dd8baa146_icon__quote 1.png" alt="">
+                           <div class="img_left-text">
+                              <p>“Giờ đây, đội ngũ nhân viên của chúng tôi có khả năng tự đánh giá bản thân và
+                                 xem xét mức độ hoàn thành
+                                 công
+                                 việc của
+                                 họ, điều đó mang đến cho họ một động lực để làm việc. Lúc này, chúng tôi có
+                                 các số liệu thống kê và có
+                                 thể
+                                 nhận biết các
+                                 điểm số ghi nhận hiệu quả làm việc của nhân viên, điều đó cổ vũ đội ngũ nhân
+                                 viên của chúng tôi không
+                                 ngừng
+                                 cải thiện
+                                 công tác cung cấp dịch vụ khách hàng.</p>
+                              <div class="avatar">
+                                 <img src="./images/image_header/Ellipse 23.png" alt="">
+                                 <div class="text_test">
+                                    <h3>Brent Burrows Jnr</h3>
+                                    <p>Ecommerce Manager & Brand Strategist, CBS Bahamas</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!------Tại sao lại chọn Tín Phát-------->
+   <section class="why" style="padding: unset;">
+      <div class="why_list">
+         <div class="container">
+            <div class="text_center">
+               <h2>Tại sao chọn Tín Phát</h2>
+            </div>
+            <div class="center_flex">
+               <div class="center_flex-grid">
+                  <div class="item">
+                     <img src="./images/image_header/save-time 1.svg" alt="">
+                     <div class="item-text">
+                        <h3>Tiết kiệm <span class="bg_text">Thời gian</span></h3>
+                        <p>Tín Phát giúp bạn tiết kiệm thời gian để bạn có thể dành thời gian phát triển doanh
+                           nghiệp của mình. Đừng tốn thêm một
+                           giây nào cho việc ghi sổ, khai thuế các vấn đề kế toán, hay thủ tục pháp lý phức tạp
+                           khác.</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="./images/image_header/save-time 2.svg" alt="">
+                     <div class="item-text">
+                        <h3>Tiết kiệm <span class="bg_text">Chi Phí</span></h3>
+                        <p>Tín Phát sẽ giúp bạn tiết kiệm chi phí hoạt động, giảm hóa đơn thuế, tăng tỷ suất lợi
+                           nhuận và mở rộng quy mô kinh doanh
+                           của bạn. Điều tuyệt vời nhất là dịch vụ kế toán của chúng tôi không tốn kém và hoàn
+                           hảo cho các doanh nghiệp nhỏ muốn
+                           tránh chi phí cao khi đầu tư bộ phận kế toán nội bộ</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="./images/image_header/hand-shake 1.svg" alt="">
+                     <div class="item-text">
+                        <h3>Cam kết <span class="bg_text">Trách nhiệm</span></h3>
+                        <p>Tín Phát ​​​​cam kết nhận trách nhiệm xử lý nếu có sự cố sai sót ảnh hưởng đến Doanh
+                           nghiệp trong quá trình sử dụng dịch
+                           vụ. Sự thành công của khách hàng là điều kiện phát triển của chúng tôi. Vậy cho nên
+                           mỗi công việc thực hiện, Tín Phát
+                           đều cam kết để khách hàng được lợi ích tốt nhất.</p>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="./images/image_header/support 1.svg" alt="">
+                     <div class="item-text">
+                        <h3>Hỗ trợ <span class="bg_text">24/7</span></h3>
+                        <p>Chỉ cần một cuộc gọi, Hotline của Tín Phát luôn sẵn sàng tư vấn giải đáp và hỗ trợ
+                           cùng bạn 24/7.Chúng tôi luôn ở đây và
+                           sẽ luôn ở đây khi khách hàng cần đến</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-------Mục tiêu-------->
+   <section class="target" style="padding: unset;">
+      <div class="target_bg">
+         <div class="target_bg-image">
+            <img src="./images/image_header/group1.png" alt="">
+            <div class="center_flex">
+               <div class="center_flex-text">
+                  <h3>Nếu mục tiêu của bạn là tìm đơn vị chuyên trách vấn đề pháp lý, thuế và kế toán cho doanh
+                     nghiệp.</h3>
+                  <div class="btn">
+                     <p>Đặt lịch hẹn cùng Tín Phát ngay</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-----Các dịch vụ--------->
+   <div class="service">
+      <div class="service_list">
+         <div class="container">
+            <div class="flex_content">
+               <div div class="flex_content-grid">
+                                    <div class="item">
+                                       <h4>Dịch vụ thành lập</h4>
+                                       <ul>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Công ty
+                                                TNHH</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="item">
+                                       <h4>Thay đổi GKPD</h4>
+                                       <ul>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Thay đổi
+                                                tên</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Đổi địa
+                                                chỉ</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Thêm ngành
+                                                nghề</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Tăng vốn
+                                                điều lệ</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Thêm cổ
+                                                đông</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Đổi đại diện
+                                                pháp luật</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Đổi loại
+                                                hình công ty</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Cập nhật
+                                                CCCD</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="item">
+                                       <h4>Dịch vụ kế toán</h4>
+                                       <ul>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Kế toán trọn
+                                                gói</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Khai thuế
+                                                ban đầu</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Báo cáo tài
+                                                chính</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Làm sổ sách
+                                                kế toán</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Hoàn thuế
+                                                GTGT</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Hoàn thuế
+                                                TNCN</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="item">
+                                       <h4>Dịch vụ khác</h4>
+                                       <ul>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Hóa đơn điện
+                                                tử</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Bảo hiểm xã
+                                                hội</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Tạm ngừng
+                                                kinh doanh</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Giải thể
+                                                doanh ngiệp</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Đăng ký kinh
+                                                doanh</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">VP Đại diện
+                                                nước ngoài</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Đăng ký nhãn
+                                                hiệu , logo</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Dịch vụ lý
+                                                lịch tư pháp</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Chữ ký
+                                                số</a></li>
+                                          <li><i><img src="./images/image_header/priority (1).png" alt=""></i><a href="#">Đăng ký MST
+                                                cá nhân</a></li>
+                                       </ul>
+                                    </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-----Foooter--------->
+   <footer>
+      <div class="container">
+         <div class="center_flex">
+            <div class="center_flex-grid">
+               <div class="box_left">
+                  <div class="image">
+                     <img src="./images/image_header/Component 16.png" alt="">
+                  </div>
+               </div>
+               <div class="box_right">
+                  <div class="text">
+                     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                        industries for previewing
+                        layouts
+                        and visual mockups.</p>
+                     <div class="logo_icon">
+                        <div class="logo_icon-flex">
+                           <img src="./images/Blogs/facebook 2.png" alt="">
+                           <img src="./images/Blogs/youtube 1.png" alt="">
+                           <span>
+                              <img src="./images/Blogs/ad_units.png" alt="">
+                              <a href="#">0272-363-0211</a>
+                           </span>
+                           <span>
+                              <img src="./images/Blogs/forward_to_inbox.png" alt="">
+                              <p>infor@taxtp.com</p>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="support">
+                     <h4>Hỗ trợ</h4>
+                     <p>Chính sách bảo mật <br />
+                        Điều khoản và điều kiện
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="./js/Count.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/owl.carousel.js"></script>
+   <script src="js/main.js"></script>
+   <script src="./js/time.js"></script>
+   <script src="./js/form.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

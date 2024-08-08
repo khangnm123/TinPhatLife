@@ -1,0 +1,36 @@
+//chung chung thì sài ở đây
+.container{
+    max-width: 1550px;
+}
+.flex_content{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+section{
+    padding: 0px 20px;
+}
+.text_center{
+    text-align: center;
+    padding: 30px 30px;
+    h2{
+            color: $color-blue;
+            font-size: 48px;
+            font-family: "Google Sans";
+            font-weight: 700;
+            line-height: 70px;
+            word-wrap: break-word
+    }
+}
+.bg_text{
+    background-color: $color-green;
+    color: white;
+    padding: 0px 10px;
+}
+.center_flex{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+p{
+    margin-bottom: 0px;
+}
